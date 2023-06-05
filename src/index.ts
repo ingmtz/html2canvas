@@ -16,6 +16,7 @@ export type Options = CloneOptions &
         removeContainer?: boolean;
     };
 
+    //Test commit
 const html2canvas = (element: HTMLElement, options: Partial<Options> = {}): Promise<HTMLCanvasElement> => {
     return renderElement(element, options);
 };
